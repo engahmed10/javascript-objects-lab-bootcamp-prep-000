@@ -15,7 +15,7 @@ function deleteFromObjectByKey(object, key)
 function  destructivelyDeleteFromObjectByKey(object, key)
 {
   
-   object[key]="undefined"
+   object[key] =parseInt("undefined")
   return (Object.assign ({},object[key]));
   
 }
